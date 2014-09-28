@@ -2,6 +2,9 @@ CourseProject3
 ==============
 
 
+The idea is to read the test data and training data into two seperate variables and merge them . After that extract only those columns which contains Mean and Standard Deviation and name the columns accordingly . And after that calculate the mean of each column and write it into the result.txt file.
+
+
 ## It is used for reading test data set
 q<-read.table("UCI/test/X_test.txt")
 
